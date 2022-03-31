@@ -1,0 +1,22 @@
+﻿using System;
+
+
+namespace HelloWorld
+{
+    class Greeting1
+    {
+        public static void GreetingShow1()
+        {
+            Console.WriteLine("같은 namespace, 다른 클래스 ");
+        }
+    }
+
+    partial class Program2
+    {
+        public static void GoodNight()
+        {
+            Console.WriteLine("안녕히 주무세요~");
+        }
+    }
+
+}
