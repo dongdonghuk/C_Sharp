@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BankMain.cs" />
+    <Compile Remove="Bank_Class.cs" />
+    <Compile Remove="BaseAndDerived.cs" />
+    <Compile Remove="BaseAndDerived2.cs" />
+    <Compile Remove="Class1_ReadOnly.cs" />
+    <Compile Remove="Class_Constructer.cs" />
+    <Compile Remove="CLass_Destructor.cs" />
+    <Compile Remove="Class_ReferenceParameter.cs" />
+    <Compile Remove="Employee_Deepcopy.cs" />
+    <Compile Remove="Employee_PrivateMember.cs" />
+    <Compile Remove="Employee_Static.cs" />
+    <Compile Remove="InheritanceConstructor.cs" />
+    <Compile Remove="Nested_Class.cs" />
+    <Compile Remove="ObjectTypeCast.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Struct1.cs" />
+    <Compile Remove="Virtual_class.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Virtual_class.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="BankMain.cs" />
+    <None Include="Bank_Class.cs" />
+    <None Include="BaseAndDerived.cs" />
+    <None Include="BaseAndDerived2.cs" />
+    <None Include="Class1_ReadOnly.cs" />
+    <None Include="Class_Constructer.cs" />
+    <None Include="CLass_Destructor.cs" />
+    <None Include="Class_ReferenceParameter.cs" />
+    <None Include="Employee_Deepcopy.cs" />
+    <None Include="Employee_PrivateMember.cs" />
+    <None Include="Employee_Static.cs" />
+    <None Include="InheritanceConstructor.cs" />
+    <None Include="Nested_Class.cs" />
+    <None Include="ObjectTypeCast.cs" />
+    <None Include="Program.cs" />
+    <None Include="Struct1.cs" />
+  </ItemGroup>
+
+</Project>
