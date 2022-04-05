@@ -23,10 +23,14 @@
     <Compile Remove="Program.cs" />
     <Compile Remove="Struct1.cs" />
     <Compile Remove="Virtual_class.cs" />
+    <Compile Remove="Abstract_Class.cs" />
+    <Compile Remove="Abstract_Shape.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Virtual_class.cs" />
+    <None Include="Abstract_Class.cs" />
+    <None Include="Abstract_Shape.cs" />
   </ItemGroup>
 
   <ItemGroup>

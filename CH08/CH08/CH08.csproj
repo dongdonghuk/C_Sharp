@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="interface_intro.cs" />
+    <Compile Remove="interface_다중상속.cs" />
+    <Compile Remove="interface_상속.cs" />
+    <Compile Remove="Sendable_interface.cs" />
+    <Compile Remove="Employee_PrivateMember.cs" />
+    <Compile Remove="Employee_Property.cs" />
+    <Compile Remove="Property_읽기전용.cs" />
+    <Compile Remove="Employee_Auto_property.cs" />
+    <Compile Remove="InterfaceAndProperty.cs" />
+    <Compile Remove="Indexer_intro.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="interface_intro.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="interface_다중상속.cs" />
+    <None Include="interface_상속.cs" />
+    <None Include="Sendable_interface.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="Employee_PrivateMember.cs" />
+    <None Include="Employee_Property.cs" />
+    <None Include="Property_읽기전용.cs" />
+    <None Include="Employee_Auto_property.cs" />
+    <None Include="InterfaceAndProperty.cs" />
+    <None Include="Indexer_intro.cs" />
+  </ItemGroup>
+</Project>
